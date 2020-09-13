@@ -7,7 +7,7 @@ nav_order: 6
 
 # Hide yourself from the stats
 
-For many reasons it might make sense to not hiding yourself from the stats. You can do that in two ways.
+For many reasons, it might make sense to hide from the stats. You can do that in two ways.
 
 - Block the script with an adblocker
 - Use of Do Not Track header.
@@ -27,18 +27,18 @@ yourdomain.com kindmetrics.io * block
 ```
 Change **yourdomain.com** to your domain you used when installing Kindmetrics.
 
-If that didn't work, it could be that you use a different address, try to add this line as well:
+If that didn't work, it could be that you use a different address; try to add this line as well:
 ```
 yourdomain.com app.kindmetrics.io * block
 ```
 
 ### Check if it works
-Go to your website and check if your visits are registered. If not it didn't work.
+Go to your website and check if your visits are registered. If not, it didn't work.
 
 ## Do Not Track
-This was a thing that was bigger before but some browser still use this.
+Do Not Track was a thing that was bigger before, but some browsers still use it.
 
-This DNT will send a little text on every request to every website you visit that you don't want to be tracked. Kindmetrics won't send anything at all if this is enabled to respect users wish to not be tracked fully.
+This DNT will send a little text on every request to every website you visit that you don't want to track. Kindmetrics won't send anything if this is enabled to respect users' wishes not to be tracked fully.
 
 Go to browser specific tutorial how to enabled it for you:
 - [Brave](https://support.brave.com/hc/en-us/articles/360017905612-How-do-I-turn-Do-Not-Track-on-or-off-)

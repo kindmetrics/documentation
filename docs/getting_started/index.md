@@ -17,10 +17,10 @@ You will be shown an form where you add your domain, you add an domain without `
 You will then be presented an javascript code. Add that to your head on all the sites you want to track visitors.
 
 ```html
-<script src="https://kindmetrics.io/js/track.js" defer="true" async></script>
+<script src="https://kindmetrics.io/js/kind.js" defer="true" async></script>
 ```
 If you instead want to specific set the domain it shall come into, you can add data paramter called domain:
 
 ```html
-<script src="https://kindmetrics.io/js/track.js" defer="true" data-domain="kindmetrics.io" async></script>
+<script src="https://kindmetrics.io/js/kind.js" defer="true" data-domain="kindmetrics.io" async></script>
 ```
